@@ -44,11 +44,10 @@
 }
 
 .subtituloInicio{
-    padding-bottom: 260px;
     grid-area: texto3;
     font-size: 45px;
     font-family: 'Bebas Neue', cursive;
-    background-color: #FEDFE5;
+    
 }
 
 
@@ -413,17 +412,16 @@ footer{
     
     .subtituloInicio{
         display: flex;
-        justify-content: center;
-        padding-bottom: 260px;
+        padding: 0;
         grid-area: texto3;
         font-size: 45px;
         font-family: 'Bebas Neue', cursive;
-        background-color: #FEDFE5;
+       
     }
     
     
     .textoInicio{
-       margin: 0;
+       margin-top: 100px;
        padding: 0;
        display: flex;
        justify-content: center;
@@ -435,11 +433,18 @@ footer{
     }
     
     .divLogo{
+        display: flex;
+        justify-content: center;
         grid-area: img4;
         width: 100%;
         height: 100%;
     }
 
+    .subYtexto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
     
 }
 
